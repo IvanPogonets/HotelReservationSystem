@@ -25,13 +25,6 @@ public class Room {
         }
     }
 
-    public void addRoom() {
-    }
-
-    public void printRoom() {
-
-    }
-
     public int getRoomNumber() {
         return roomNumber;
     }
@@ -39,6 +32,7 @@ public class Room {
     public String getRoomType() {
         return roomType;
     }
+
     public double getPricePerNight() {
         return pricePerNight;
     }
@@ -50,13 +44,9 @@ public class Room {
     public double getCancellationFee() {
         return cancellationFee;
     }
+
     public String getStatus() {
         return status;
-    }
-
-
-    public String getDateOfEntry() {
-        return dateOfEntry;
     }
 
     public static Room findRoom(List<Room> roomsList, int roomNumber) {

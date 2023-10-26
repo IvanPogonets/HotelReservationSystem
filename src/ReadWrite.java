@@ -9,7 +9,7 @@ public class ReadWrite {
 
     public static List<Room> readHotel() {
         List<Room> rooms = new ArrayList<>();
-        String path = "C:\\Users\\HP\\IdeaProjects\\HotelBooking\\Hotel.csv";
+        String path = "C:\\Users\\HP\\IdeaProjects\\HotelReservationSystem\\src\\Resources\\Hotel.csv";
         try (Scanner scanner = new Scanner(new File(path))) {
             scanner.nextLine();
             while (scanner.hasNextLine()) {
@@ -29,7 +29,7 @@ public class ReadWrite {
     }
 
     public static void writeHotel(List<Room> roomsList) {
-        String path = "C:\\Users\\HP\\IdeaProjects\\HotelBooking\\Hotel.csv";
+        String path = "C:\\Users\\HP\\IdeaProjects\\HotelReservationSystem\\src\\Resources\\Hotel.csv";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
             writer.write("Number,Type,Price per night,Cancellation fee,Status,UserID,Date of arrive,Date of departure");
             writer.newLine();
@@ -44,7 +44,7 @@ public class ReadWrite {
 
     public static List<User> readUsers() {
         List<User> users = new ArrayList<>();
-        String path = "C:\\Users\\HP\\IdeaProjects\\HotelBooking\\User.csv";
+        String path = "C:\\Users\\HP\\IdeaProjects\\HotelReservationSystem\\src\\Resources\\User.csv";
         try (Scanner scanner = new Scanner(new File(path))) {
             scanner.nextLine();
             while (scanner.hasNextLine()) {
@@ -64,7 +64,7 @@ public class ReadWrite {
     }
 
     public static void writeUsers(List<User> userList) {
-        String path = "C:\\Users\\HP\\IdeaProjects\\HotelBooking\\User.csv";
+        String path = "C:\\Users\\HP\\IdeaProjects\\HotelReservationSystem\\src\\Resources\\User.csv";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
             writer.write("User ID,Login,Password,Wallet,Credit,BookedRoom");
             writer.newLine();

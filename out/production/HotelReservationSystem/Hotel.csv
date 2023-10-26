@@ -1,0 +1,19 @@
+Number,Type,Price per night,Cancellation fee,Status,UserID,Date of arrive,Date of departure
+101,Family,100.0,0.0,Available,0,null,null
+102,Singe,50.1,10.0,Booked,10,01.01.2022,01.01.2022
+103,Singe,50.0,10.0,Available,0,null,null
+104,Singe,50.0,10.0,Available,0,null,null
+105,Family,100.0,0.0,Available,0,null,null
+201,Family,100.0,0.0,Booked,2,21.08.2022,21.08.2022
+202,Singe,50.0,10.0,Available,0,null,null
+203,Singe,50.0,10.0,Available,0,null,null
+204,Singe,50.0,10.0,Available,0,null,null
+205,Family,100.0,0.0,Available,0,null,null
+301,Double,90.0,15.0,Available,0,null,null
+302,Singe,50.0,10.0,Available,0,null,null
+303,Singe,50.0,10.0,Available,0,null,null
+304,Singe,50.0,10.0,Available,0,null,null
+305,Double,90.0,15.0,Available,0,null,null
+401,President,1000.0,0.0,Booked,3,21.08.2022,21.08.2022
+402,Deluxe,250.0,15.0,Available,0,null,null
+404,President,1000.0,0.0,Available,0,null,null
